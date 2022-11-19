@@ -44,3 +44,15 @@
     | The RecyclerView’s adaptor forces us to use the ViewHolder pattern. The views are split into onCreateViewholder() and onBindViewholder() methods.    | The ListView doesn’t give that kind of protection by default, so without implementing the ViewHolder pattern inside the getView().     |
     | Use of less memory.    | More memory is used for a long list. Sometimes devices get hung.    | 
     | Efficient Scrolling, we can choose the way of scroll-like vertically or horizontally and grids.    | Inefficient scrolling, we can only create vertical scrolling.    |   
+
+- **What is `View` in Android?** - [Learn from here](https://developer.android.com/reference/android/view/View)
+
+- **Difference between `View.GONE` and `View.INVISIBLE`?**
+
+    **View.GONE** - The view will not show and the rest of the views will not take its existence into consideration.
+
+    **View.INVISIBLE** - The view will not show, but it will take its assigned space in the layout.
+
+- **What is a `Toast`?**
+
+    `Toast` is a message that pops up on the screen. It is used to display the message regarding the status of the operation initiated by the user and covers only the expanse of space required for the message while the user’s recent activity remains visible and interactive.
