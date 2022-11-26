@@ -68,3 +68,25 @@
 - **What is `BroadcastReceiver` in Android?**
 
     A `broadcast receiver` (receiver) is an Android component which allows you to register for system or application events. Android apps can send or receive broadcast       messages from the Android system and other Android apps, similar to the publish-subscribe design pattern. Unlike activities, `android BroadcastReceiver` doesn’t contain any user interface. Broadcast receiver is generally implemented to delegate the tasks to services depending on the type of intent data that’s received.
+
+- **What is `Context` in Android?**
+
+    The context in Android is the context of the current state of the application or object. The context comes with services like giving access to databases and preferences, resolving resources, and more.
+
+- **Which libraries for dependency injection?**
+
+    **[Dagger2](https://github.com/google/dagger)** - A fast dependency injector for Java and Android. Dagger is a compile-time framework for dependency injection. It uses no reflection or runtime bytecode generation, does all its analysis at compile-time, and generates plain Java source code.
+
+    **[Hilt](https://developer.android.com/training/dependency-injection/hilt-android)** - Hilt is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection in your project.
+
+    **[Koin](https://github.com/InsertKoinIO/koin)** - A pragmatic lightweight dependency injection framework for Kotlin developers. Written in pure Kotlin, using functional resolution only: no proxy, no code generation, no reflection. Koin is a DSL, a lightweight container and a pragmatic API.
+
+    **[Kodein](https://github.com/kosi-libs/Kodein)** - is a very simple and yet very useful dependency retrieval container. it is very easy to use and configure.
+
+- **What is `Room` in Android?**
+
+    The `Room` persistence library provides an abstraction layer over `SQLite` to allow for more robust database access while harnessing the full power of SQLite.The library helps you create a cache of your app's data on a device that's running your app. This cache, which serves as your app's single source of truth, allows users to view a consistent copy of key information within your app, regardless of whether users have an internet connection.
+
+- **What is `Data access Object(DAO)` in Room DB**
+
+    The following code defines a DAO called `UserDao`. `UserDao` provides the methods that the rest of the app uses to interact with data in the `user` table.
