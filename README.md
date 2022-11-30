@@ -128,3 +128,7 @@
 - **What is `MVVM(Model View ViewModel)`?**
 
     MVVM is a software design pattern that is used for developing user interfaces. It is derived from MVC, but it uses a different approach to separating the concerns of the application. In MVVM, the ViewModel is responsible for handling the data and the business logic, while the View is responsible for displaying the data.
+
+- **Is it necessary to use the data binding library with `MVVM` on Android?**
+
+    While the data binding library is not required to use MVVM on Android, it can greatly simplify the process. The data binding library allows you to bind data directly to views, eliminating the need for manual view updates. This can help to keep your code clean and maintainable.
