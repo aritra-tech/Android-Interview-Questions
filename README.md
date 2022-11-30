@@ -90,3 +90,41 @@
 - **What is `Data access Object(DAO)` in Room DB**
 
     The following code defines a DAO called `UserDao`. `UserDao` provides the methods that the rest of the app uses to interact with data in the `user` table.
+
+- **What is the life cycle of Android activity?**
+
+    **OnCreate()**: It is called when activity is created. Using this, the views are created and data is collected from bundles.
+    **OnStart()**: It is called if the activity is becoming visible to the user. It may be succeeded by onResume() if the activity comes to the foreground, or onStop() if it becomes hidden.
+    **OnResume()**: It is called when the activity will start an interaction with the user.
+    **OnPause()**: This is called when the activity is moving to the background but hasn’t been killed yet.
+    **OnStop()**: This is called when an activity is no longer visible to the user.
+    **OnDestroy()**: This is called when the activity is finished or destroyed.
+    **OnRestart()**: This is called after the activity has been stopped, prior to it being started again.
+
+- **What is an `intent`?**
+
+    An intent is a messaging object that is used to request an action from other components of an application. It can also be used to launch an activity.
+    There are two types of intents in Android:
+
+    **Implicit Intent** - Used to invoke the system components.
+    **Explicit Intent** - Used to invoke the activity class.
+
+- **What is `context`?**
+
+    The `context` in Android is the context of the current state of the application or object.
+
+    There are two types of context. They are:
+
+    **Activity context:**
+
+    - This activity context is attached to the lifecycle of an activity.
+    - The activity context can be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the context of the activity.
+
+    **Application context:**
+
+    - This application context is attached to the lifecycle of an application.
+    - The application context should be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope of activity.
+
+- **What is `MVVM(Model View ViewModel)`?**
+
+    MVVM is a software design pattern that is used for developing user interfaces. It is derived from MVC, but it uses a different approach to separating the concerns of the application. In MVVM, the ViewModel is responsible for handling the data and the business logic, while the View is responsible for displaying the data.
