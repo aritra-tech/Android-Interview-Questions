@@ -60,11 +60,7 @@
     `Toast` is a message that pops up on the screen. It is used to display the message regarding the status of the operation initiated by the user and covers only the expanse of space required for the message while the user’s recent activity remains visible and interactive.
    
 ## Advanced Questions
-    
-- **What is `ViewModel` in Android?**
-
-    The `ViewModel`class is designed to store and manage UI-related data in a lifecycle conscious way. The ViewModel class allows data to survive configuration changes     such as screen rotations.The Android framework manages the lifecycles of UI controllers, such as activities and fragments. The framework may decide to destroy or       re-create a UI controller in response to certain user actions or device events that are completely out of your control.
-    
+   
 - **What is `BroadcastReceiver` in Android?**
 
     A `broadcast receiver` (receiver) is an Android component which allows you to register for system or application events. Android apps can send or receive broadcast       messages from the Android system and other Android apps, similar to the publish-subscribe design pattern. Unlike activities, `android BroadcastReceiver` doesn’t contain any user interface. Broadcast receiver is generally implemented to delegate the tasks to services depending on the type of intent data that’s received.
