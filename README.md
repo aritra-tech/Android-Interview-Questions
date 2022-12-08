@@ -128,7 +128,27 @@
 - **What is `MVVM(Model View ViewModel)`?**
 
     MVVM is a software design pattern that is used for developing user interfaces. It is derived from MVC, but it uses a different approach to separating the concerns of the application. In MVVM, the ViewModel is responsible for handling the data and the business logic, while the View is responsible for displaying the data.
+![68747470733a2f2f646576656c6f7065722e616e64726f69642e636f6d2f746f7069632f6c69627261726965732f6172636869746563747572652f696d616765732f66696e616c2d6172636869746563747572652e706e67](https://user-images.githubusercontent.com/80090908/206382033-421c30fb-fdc9-4954-89af-fc37e53700be.png)
 
+- **What is `ViewModel`?**
+
+    ViewModel is a class that is responsible for preparing and managing the data for an `Activity` or a `Fragment`. It also handles the communication of the Activity / Fragment with the rest of the application
+    
 - **Is it necessary to use the data binding library with `MVVM` on Android?**
 
     While the data binding library is not required to use MVVM on Android, it can greatly simplify the process. The data binding library allows you to bind data directly to views, eliminating the need for manual view updates. This can help to keep your code clean and maintainable.
+    
+- **Why do you think MVVM is a better choice than MVC for developing Android apps?**
+
+    I think that MVVM is a better choice for developing Android apps for a few reasons. 
+    - First, it allows for a more separation of concerns between the different parts of the app, which can make development and maintenance simpler. 
+    - Second, it can make it easier to bind data to the UI, since the ViewModel can act as a mediator between the data and the View. 
+    - Finally, it can help to improve performance, since the ViewModel can handle tasks that would otherwise need to be done on the UI thread.
+    
+- **Explain how `data binding` works in MVVM?**
+
+    Data binding is a process that allows you to automatically synchronize your ViewModel and View. When data binding is enabled, any changes that you make to your ViewModel will be automatically reflected in your View. This makes it easier to keep your View and ViewModel in sync, and can help to reduce the amount of boilerplate code that you need to write.
+    
+- **What is LiveData? Why should we use it in our android app?**
+
+    LiveData is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
