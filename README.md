@@ -51,9 +51,9 @@
 
 - **Difference between `View.GONE` and `View.INVISIBLE`?**
 
-    **View.GONE** - The view will not show and the rest of the views will not take its existence into consideration.
+    **View.GONE** - This view is invisible, and it doesn't take any space for layout purposes.
 
-    **View.INVISIBLE** - The view will not show, but it will take its assigned space in the layout.
+    **View.INVISIBLE** - This view is invisible, but it still takes up space for layout purposes.
 
 - **What is a `Toast`?**
 
