@@ -145,6 +145,6 @@
 
     Data binding is a process that allows you to automatically synchronize your ViewModel and View. When data binding is enabled, any changes that you make to your ViewModel will be automatically reflected in your View. This makes it easier to keep your View and ViewModel in sync, and can help to reduce the amount of boilerplate code that you need to write.
     
-- **What is LiveData? Why should we use it in our android app?**
+- **What is `LiveData`? Why should we use it in our android app?**
 
-    LiveData is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
+    `LiveData` is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
