@@ -89,14 +89,18 @@
 
 - **What is the life cycle of Android activity?**
 
-    **OnCreate()**: It is called when activity is created. Using this, the views are created and data is collected from bundles.
-    **OnStart()**: It is called if the activity is becoming visible to the user. It may be succeeded by onResume() if the activity comes to the foreground, or onStop() if it becomes hidden.
-    **OnResume()**: It is called when the activity will start an interaction with the user.
-    **OnPause()**: This is called when the activity is moving to the background but hasn’t been killed yet.
-    **OnStop()**: This is called when an activity is no longer visible to the user.
-    **OnDestroy()**: This is called when the activity is finished or destroyed.
-    **OnRestart()**: This is called after the activity has been stopped, prior to it being started again.
+    - `OnCreate()`: It is called when activity is created. Using this, the views are created and data is collected from bundles.
+    - `OnStart()`: It is called if the activity is becoming visible to the user. It may be succeeded by onResume() if the activity comes to the foreground, or onStop() if it becomes hidden.
+    - `OnResume()`: It is called when the activity will start an interaction with the user.
+    - `OnPause()`: This is called when the activity is moving to the background but hasn’t been killed yet.
+    - `OnStop()`: This is called when an activity is no longer visible to the user.
+    - `OnDestroy()`: This is called when the activity is finished or destroyed.
+    - `OnRestart()`: This is called after the activity has been stopped, prior to it being started again.
 
+- **What’s the difference between `onCreate()` and `onStart()`?**
+
+    - `onCreate()` -  method is called once during the Activity lifecycle, either when the application starts, or when the Activity has been destroyed and then recreated, for example during a configuration change.
+    - `onStart()` - method is called whenever the Activity becomes visible to the user, typically after onCreate() or onRestart().
 - **What is an `intent`?**
 
     An intent is a messaging object that is used to request an action from other components of an application. It can also be used to launch an activity.
