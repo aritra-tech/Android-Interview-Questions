@@ -107,8 +107,8 @@
     An intent is a messaging object that is used to request an action from other components of an application. It can also be used to launch an activity.
     There are two types of intents in Android:
 
-    **Implicit Intent** - Used to invoke the system components.
-    **Explicit Intent** - Used to invoke the activity class.
+    - **Implicit Intent** - Used to invoke the system components.
+    - **Explicit Intent** - Used to invoke the activity class.
 
 - **What is `context`?**
 
