@@ -86,7 +86,7 @@
 
 - **What is `Data access Object(DAO)` in Room DB**
 
-    The following code defines a DAO called `UserDao`. `UserDao` provides the methods that the rest of the app uses to interact with data in the `user` table.
+    `DAOs` are used to access your application’s persisted data. They are a better and modular way to access your database as compared to query builders or direct queries..
 
 - **What is the life cycle of Android activity?**
 
