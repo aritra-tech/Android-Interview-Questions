@@ -125,6 +125,15 @@
     - This application context is attached to the lifecycle of an application.
     - The application context should be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope of activity.
 
+- **What’s the difference between `commit()` and `apply()` in SharedPreferences?**
+
+    - `commit()` - writes the data synchronously and returns a boolean value of success or failure depending on the result immediately.
+
+    - `apply()` - is asynchronous and it won’t return any boolean response. Also if there is an apply() outstanding and we perform another commit(). The commit() will be blocked until the apply() is not completed.
+- **What is `MVP architecture`?**
+    
+    The View includes the xml and the activity/fragment classes. So the activity would ideally implement a view interface making it easier for unit testing (since this will work without a view).
+    
 - **What is `MVVM(Model View ViewModel)`?**
 
     MVVM is a software design pattern that is used for developing user interfaces. It is derived from MVC, but it uses a different approach to separating the concerns of the application. In MVVM, the ViewModel is responsible for handling the data and the business logic, while the View is responsible for displaying the data.
