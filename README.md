@@ -163,6 +163,7 @@
 
     `LiveData` is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
     
+    
 ### Kotlin Questions
 
 - **What is the difference between the variable declaration with `var` and `val`?**
@@ -177,9 +178,35 @@
 
     - Safe call operator i.e. ?. is used to check if the value of the variable is null or not. If it is null then null will be returned otherwise it will return the desired value.
     
-     ```var name: String? = "MindOrks"
-        println(name?.length) // 8
-        name = null
-        println(name?.length) // null`
+    ```    
+    var name: String? = "Aritra"
+    println(name?.length) // 6
+    name = null
+    println(name?.length) // null
+    ```
     
     - If you want to throw NullPointerException when the value of the variable is null, then you can use the null check or !! operator.
+    
+    ```
+    var name: String? = "MindOrks"
+    println(name?.length) // 8
+    name = null
+    println(name!!.length) // KotlinNullPointerException
+    ```
+    
+- **What is String Interpolation in Kotlin?**
+
+    If you want to use some variable or perform some operation inside a string then String Interpolation can be used. You can use the `$` sign to use some variable in the string or can perform some operation in between `{}` sign.
+    
+    ```
+    var name = "Aritra Das"
+    print("Hello! I am learning from $name")
+    ```
+    
+- **When to use the `lateinit` keyword in Kotlin?**
+
+    The `lateinit` keyword allows you to avoid initializing a property when an object is constructed. If your property is referenced before being initialized, Kotlin throws an UninitializedPropertyAccessException, so be sure to initialize your property as soon as possible.
+    
+- **What's the difference between lazy and Lateinit?**
+
+    [Learn from here in a detailed way](https://stackoverflow.com/questions/36623177/property-initialization-using-by-lazy-vs-lateinit)
