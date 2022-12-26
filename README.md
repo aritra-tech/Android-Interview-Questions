@@ -162,3 +162,24 @@
 - **What is `LiveData`? Why should we use it in our android app?**
 
     `LiveData` is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
+    
+### Kotlin Questions
+
+- **What is the difference between the variable declaration with `var` and `val`?**
+
+    If you want to declare some mutable(changeable) variable, then you can use `var` . For the immutable variable, use `val` i.e. val variables can't be changed once assigned.
+
+- **What is the difference between the variable declaration with `val` and `const`?**
+
+    Both the variables that are declared with `val` and `const` are immutable in nature. But the value of the `const` variable must be known at the compile-time whereas the value of the `val` variable can be assigned at runtime also.
+    
+- **What is the difference between `safe calls(?.)` and `null check(!!)`?**
+
+    - Safe call operator i.e. ?. is used to check if the value of the variable is null or not. If it is null then null will be returned otherwise it will return the desired value.
+    
+     ```var name: String? = "MindOrks"
+        println(name?.length) // 8
+        name = null
+        println(name?.length) // null`
+    
+    - If you want to throw NullPointerException when the value of the variable is null, then you can use the null check or !! operator.
