@@ -3,7 +3,7 @@
 
 ## Content
 - [Android](#android)
-- [Kotlin Questions](#kotlin)
+- [Kotlin](#kotlin)
 
 ### Android 
 
@@ -164,7 +164,7 @@
     `LiveData` is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
     
     
-### Kotlin Questions
+### Kotlin
 
 - **What is the difference between the variable declaration with `var` and `val`?**
 
