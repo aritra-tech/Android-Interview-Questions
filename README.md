@@ -163,6 +163,10 @@
 
     `LiveData` is a data holder class that can be observed within a given lifecycle. This means that you can observe LiveData objects for changes and update the UI accordingly. LiveData is especially useful in Android applications because it helps to avoid memory leaks and can automatically update the UI when data changes.
     
+- **What is 'Coroutines'?**
+
+    A `coroutine` is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.       
+    [Learn from here in details and how to implement](https://developer.android.com/kotlin/coroutines?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjQepoffqopwRRr0RRbBYoiE7CeqlZirJ-5K8UM3a8uZieK82D86EvUaAgjyEALw_wcB&gclsrc=aw.ds)
     
 ### Kotlin
 
