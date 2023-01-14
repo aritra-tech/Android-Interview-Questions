@@ -37,7 +37,7 @@
 
 - **When should you use a `Fragment` rather than an `Activity`?**
 
-     - When you have some UI components to be used across thw whole app (i.e.various activities).
+     - When you have some UI components to be used across the whole app (i.e.various activities).
      - When we have multiple view to be displayed side by side just like ViewPager.
 
 - **What are the major differences between `ListView` and `RecyclerView`?**
@@ -192,8 +192,8 @@
     - If you want to throw NullPointerException when the value of the variable is null, then you can use the null check or !! operator.
     
     ```
-    var name: String? = "MindOrks"
-    println(name?.length) // 8
+    var name: String? = "Aritra"
+    println(name?.length) // 6
     name = null
     println(name!!.length) // KotlinNullPointerException
     ```
