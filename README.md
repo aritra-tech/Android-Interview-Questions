@@ -165,8 +165,7 @@
     
 - **What is 'Coroutines'?**
 
-    A `coroutine` is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.       
-    [Learn from here in details and how to implement](https://developer.android.com/kotlin/coroutines?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjQepoffqopwRRr0RRbBYoiE7CeqlZirJ-5K8UM3a8uZieK82D86EvUaAgjyEALw_wcB&gclsrc=aw.ds)
+    Coroutines are a type of light-weight thread that can be used to improve the performance of concurrent code. Coroutines can be used to suspend and resume execution of code blocks, which can help to avoid the overhead of creating and destroying threads.
     
 ### Kotlin
 
