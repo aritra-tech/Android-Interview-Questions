@@ -199,11 +199,11 @@
 - **What is the difference between the variable declaration with `var` and `val`?**
 
     If you want to declare some mutable(changeable) variable, then you can use `var` . For the immutable variable, use `val` i.e. val variables can't be changed once assigned.
- <br>
+ 
 - **What is the difference between the variable declaration with `val` and `const`?**
 
     Both the variables that are declared with `val` and `const` are immutable in nature. But the value of the `const` variable must be known at the compile-time whereas the value of the `val` variable can be assigned at runtime also.
-    <br>
+
 - **What is the difference between `safe calls(?.)` and `null check(!!)`?**
 
     - Safe call operator i.e. ?. is used to check if the value of the variable is null or not. If it is null then null will be returned otherwise it will return the desired value.
@@ -241,13 +241,11 @@
 - **What's the difference between lazy and Lateinit?**
 
     [Learn from here in a detailed way](https://stackoverflow.com/questions/36623177/property-initialization-using-by-lazy-vs-lateinit)
-<br>
 
 - **What is varargs?**
 
     Sometimes we need a function where we can pass n number of parameters, and the value of n can be decided at runtime. Kotlin provides us to achieve the same by defining a parameter of a function as vararg. We can pass n number of parameters to a vararg variable of the defined datatype or even of a generic type.
     [Read more](https://agrawalsuneet.medium.com/variable-number-of-arguments-vararg-kotlin-f1c25b79de14)
-    <br>
 
 - **What is data class in Kotlin and how it's different from Java?**
     
