@@ -2,12 +2,11 @@
 > Free CheatSheet for Android Interview Questions
 
 ## Content
-- [Android Interview Questions](#android-interview-questions)
 - [Content](#content)
-  - [Android](#android)
-- [Basic Questions](#basic-questions)
-- [Advanced Questions](#advanced-questions)
-  - [Kotlin](#kotlin)
+- [Android](#android)
+  - [Basic Questions](#basic-questions)
+  - [Advanced Questions](#advanced-questions)
+- [Kotlin](#kotlin)
 
 ### Android 
 
